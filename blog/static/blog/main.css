@@ -71,11 +71,11 @@ body {
   }
 
   .btn {
-    /*color: #7954A1;*/
+    color: #fff;
     border-color: #7954A1;
-    color: #FFF;
+    background-color: #7954A1;
   }
-  
+
   .article-svg {
     width: 25px;
     height: 25px;
