@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 import os
+import django_heroku
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -168,3 +169,5 @@ AWS_S3_REGION_NAME = "eu-west-2"
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 # STATIC_FILE_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
+
+django_heroku.settings(locals())
