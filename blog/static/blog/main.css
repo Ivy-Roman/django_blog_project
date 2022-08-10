@@ -11,6 +11,11 @@ body {
   a {
     color: #323E42;
   }
+
+  a:hover {
+    color: #7954A1;
+    text-decoration: none;
+  }
   
   ul {
     margin: 0;
