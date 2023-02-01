@@ -3,7 +3,7 @@
 The idea was to build a simple blogging app.
 
 It was made using Python 3.9 and Django 4.0.5<br/>
-For Database, I've used DB SQLite for production  and Postgresql for deployment.<br/>
+For Database, I've used DB SQLite for production  and PostgreSQL for deployment.<br/>
 Bootstrap 4 alongside with CSS used for primary styling.
 
 ## Features
